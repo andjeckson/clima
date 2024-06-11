@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#1f1f1f">
+  <meta name="msapplication-navbutton-color" content="#1f1f1f">
+  <meta name="theme-color" content="#1f1f1f">
+  
+  <link rel="shortcut icon" href="assets/img/logo.png" type="image/png" />
+  
+  <title>Clima</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css'>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+  <section class="abertura">
+    <img src="assets/img/logo.png" alt="" class="logo">
+    <h1 class="titulo">Clima</h1>
+    <p class="desenvolvedor">Projetado por Andjeckson</p>
+ </section>
+ 
+  <section class="app">
+     <div class="app-bar">
+         <button type="button"
+                 id="pesquisar">
+                 <i class="bx bx-search"></i>
+         </button>
+         <p class="cidade">
+                 <span>¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯</span>
+         </p>
+     </div>
+     <div class="layout-tempo">
+          <p class="descricao">
+             <img  class="icone" src="assets/img/icons/01d@2x.png" alt="">
+             <span>?</span>
+          </p>
+         <span class="temperatura">??</span>
+         <div class="variacao">
+              <span class="minima">Min ??° |</span>
+              <span class="maxima">Max ??°</span>
+    </div>
+     <div class="carregamento">
+      <div class="preloader">
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+      </div>
+      <span>Obtendo dados…</span>
+    </div>
+ </div>
+        <div class="proximas-previsoes">
+           <ul>
+           </ul>
+        </div>
+   </div>
+   <div class="tela-de-pesquisa">
+        <div class="app-bar">
+             <button type="button"
+                     id="voltar">
+                     <i class="bx bx-arrow-back"></i>
+             </button>
+             <p class="titulo">
+                <span>Pesquisar local</span>
+             </p>
+        </div>
+        <section class="pesquisa">
+                 <i class="bx bx-search"></i>
+                 <input type="search"
+                        placeholder="Pesquisar cidade…"
+                        id="pesquisa">
+      </section>
+      <ul class="lista-de-locais">
+      </ul>
+      <div class="preloader" id="preloader">
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+          <span class="bolinha"></span>
+      </div>
+   </section>
+</body>
+</html>
