@@ -4,7 +4,7 @@
 
  Aplicativo simples de previsão do tempo para mobile, feito com HTML, CSS e JS.
 
-O app usa informações da api Open Weather.
+O app usa informações da API Open Weather.
 
 ## Captura de tela:
 <img src="assets/img/captura-de-tela.jpg" /> 
