@@ -183,12 +183,9 @@ btnVoltar.onclick = ()=>{
      $('.tela-de-pesquisa').style.setProperty('display','none')
 }
 
-window.addEventListener('DOMContentLoaded',()=>{
-     
-     setTimeout(()=>{
-       let telaDeAbertura = document.querySelector('.abertura')
+let telaDeAbertura = document.querySelector('.abertura')
+    telaDeAbertura.addEventListener('animationend', ()=>{
            telaDeAbertura.remove()
-
           obterGeoLocalizacao()
      
      let dadosDaCidade = carregarDados('dados-metereologicos')
@@ -198,8 +195,6 @@ window.addEventListener('DOMContentLoaded',()=>{
      obterDadosMetereologicos(dadosDaCidade)
      previsaoDosProximosDias(dadosDaCidadeProximosDias)
      }
-     
-    }, 2000)
 
 })
 
